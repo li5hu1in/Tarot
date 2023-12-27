@@ -1,0 +1,114 @@
+body {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    letter-spacing: 1px;
+    font-family: STZhongsong, SimHei, Microsoft YaHei;
+    font-size: 18px;
+    margin-bottom: 4rem;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(70deg, rgb(247, 202, 151), rgb(216, 180, 245));
+    background-size: cover;
+    opacity: 0.45;
+    z-index: -1;
+}
+
+
+#navigate {
+    font-size: 1.6rem;
+    height: 3.5rem;
+    letter-spacing: 5px;
+    font-family: STXinwei;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(255, 239, 232);
+}
+
+#navigate li {
+    flex: 1;
+}
+
+#navigate a {
+    color: black;
+}
+
+#navigate a:hover {
+    font-size: 1.7rem;
+    background-color: rgb(241, 226, 212);
+}
+
+#navigate a:active {
+    color: #db7e78;
+    background-color: rgb(241, 226, 212);
+}
+
+
+#button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+#begin {
+    background-color: #5e2d9e;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px 26px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: KaiTi;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+#begin:disabled {
+    background-color: gray;
+
+}
+
+
+#imgcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+#imgbox img {
+    height: 100px;
+}
+
+#card-container {
+    margin-top: 2rem;
+}
+
+#card-container a {
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    /* font-family: KaiTi; */
+    color: rgb(139, 93, 199);
+
+}
+
+#card-container a:hover {
+    color: rgb(212, 91, 44);
+    text-decoration: underline;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}

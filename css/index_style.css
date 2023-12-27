@@ -1,0 +1,125 @@
+body {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    letter-spacing: 1px;
+    font-family: STZhongsong, SimHei, Microsoft YaHei;
+    font-size: 18px;
+    margin-bottom: 4rem;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(70deg, rgb(247, 202, 151), rgb(216, 180, 245));
+    background-size: cover;
+    opacity: 0.45;
+    z-index: -1;
+}
+
+p {
+    text-indent: 2em
+}
+
+#card {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(124, 63, 160));
+}
+
+#card h1 {
+    font-size: 3rem;
+    font-family: STXinwei;
+}
+
+
+
+#card p {
+    font-size: 1.5rem;
+    font-family: STKaiti;
+}
+
+#card strong {
+    font-weight: bold;
+    color: rgb(245, 129, 109)
+}
+
+#navigate {
+    font-size: 1.6rem;
+    height: 3.5rem;
+    letter-spacing: 5px;
+    font-family: STXinwei;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    background-color: rgb(255, 239, 232);
+}
+
+#navigate li {
+    flex: 1;
+}
+
+#navigate a {
+    color: black;
+}
+
+#navigate a:hover {
+    font-size: 1.7rem;
+    background-color: rgb(241, 226, 212);
+}
+
+#navigate a:active {
+    color: #db7e78;
+    background-color: rgb(241, 226, 212);
+}
+
+main h3 {
+    text-align: center;
+}
+
+main h4 {
+    font-family: STKaiti;
+    font-weight: bold;
+    margin-top: 2rem;
+    color: rgb(106, 55, 172)
+}
+
+main strong {
+    color: rgb(114, 74, 167)
+}
+
+main ul {
+    list-style-position: outside;
+}
+
+main li {
+    padding-left: 1.2rem;
+    list-style-type: none;
+    background-image: url(../imgs/sucai/sc_8.png);
+    background-size: 23px 23px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    text-indent: 1.5em;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+
+#article_1,
+#article_2 {
+    margin-top: 3rem;
+}
+
+#other-page a {
+    font-size: 35px;
+    font-family: FZShuTi;
+    color: rgb(91, 23, 155)
+}
+
+#other-page p {
+    font-size: 15px;
+    font-family: SimSun;
+}
