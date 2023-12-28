@@ -1,3 +1,4 @@
+// reference: https://blog.csdn.net/BrianV530/article/details/135068495?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1-135068495-blog-124718043.235^v40^pc_relevant_3m_sort_dl_base3&spm=1001.2101.3001.4242.2&utm_relevant_index=4
 function backgroundParticles() {
 
     background = document.getElementById("background");
