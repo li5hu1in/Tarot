@@ -17,9 +17,7 @@ function generateCards(deck, startingPoint, loopTimes) {
                             <br>
                             <p class="card-text"><strong>关键词：</strong>${card.kw}</p>
                             <br>
-                            <footer>
-                                <a href="#" class="card-link" id="${uprightLinkId}">查看详情</a>
-                            </footer>
+                            <a href="#" class="card-link" id="${uprightLinkId}">查看详情</a>
                         </div>
                     </div>
                 </div>
@@ -117,7 +115,8 @@ function generatePages(card, orientation) {
                     </div>
                 </div>
             </div>
-        </div>
+
+            </div>
 
         <script>
             backgroundParticles();

@@ -1,10 +1,10 @@
 body {
   padding-top: 2rem;
-  padding-bottom: 3rem;
+  /* padding-bottom: 3rem; */
   letter-spacing: 1px;
   font-family: STZhongsong, SimHei, Microsoft YaHei;
   font-size: 18px;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 #navigate {
@@ -105,4 +105,10 @@ h5 {
 .card-link:active {
   color: #db7e78;
   text-decoration: underline;
+}
+
+footer {
+    font-family: sans-serif;
+    font-size: 0.75rem;
+    line-height: 0.5rem;
 }
